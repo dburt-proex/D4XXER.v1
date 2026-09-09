@@ -23,7 +23,7 @@ Read the complete governance record: [docs/source-of-truth.md](docs/source-of-tr
 - [Agentic Readiness Audit](https://drew-burt-portfolio.daxxer-os.chatgpt.site/agentic-readiness-audit) — bounded assessment for one AI-enabled workflow
 - [Governance Lab](https://drew-burt-portfolio.daxxer-os.chatgpt.site/lab) — simulated execution-control scenarios
 - [Systems](https://drew-burt-portfolio.daxxer-os.chatgpt.site/systems) — claim-to-proof index for public systems
-- [Work Log](https://drew-burt-portfolio.daxxer-os.chatgpt.site/work-log) — review-gated directives, receipts, decisions, and field notes
+- [Work Log](https://drew-burt-portfolio.daxxer-os.chatgpt.site/work-log) — read-only, owner-published execution receipts, decisions, and field evidence
 - [Work with Drew](https://drew-burt-portfolio.daxxer-os.chatgpt.site/work-with-me) — roles, scoped work, and partnerships
 
 ## Systems evidence index
@@ -68,11 +68,13 @@ The canonical claim-and-proof matrix is maintained in [docs/systems-evidence-ind
 
 There is no automatic two-way publishing. That is intentional: evidence must be reviewed before it becomes a public claim.
 
-## Work Log submissions
+## Work Log evidence policy
 
-Use the [structured Work Log form](https://github.com/dburt-proex/DDBPORTFOLIO.git.io/issues/new?template=work-log.yml) to submit a morning directive, end-of-day receipt, build receipt, decision note, or field note.
+The public Work Log is a **read-only evidence surface**. It exists to show reviewed execution receipts, decisions, build evidence, and field notes authored or approved by Drew Burt.
 
-The issue remains an unpublished draft while it is open. A record enters the public Work Log only after its claims and sensitive-data boundary are reviewed and the issue is closed. Reopening the issue withdraws it from the feed.
+Visitor submission is not part of the portfolio workflow. Public pages and repository documentation must not present a Work Log intake form or invite visitors to create entries. Draft authoring and review occur through an owner-controlled workflow; only reviewed records may enter the public evidence feed.
+
+Existing published records remain evidence. Publication or withdrawal remains an owner-controlled action.
 
 ## Contact
 

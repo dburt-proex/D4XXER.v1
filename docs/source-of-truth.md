@@ -37,7 +37,7 @@ The portfolio may summarize technical evidence; it must not outrank or broaden t
 | `/results` | Deterministic score, confidence, gaps, and next actions | Deployed scoring logic and documented assessment boundary |
 | `/lab` | Simulated ALLOW, REVIEW, and HALT control paths | CASA and DiffWall repositories |
 | `/systems` | Evidence index for public system claims | Canonical project repositories plus `docs/systems-evidence-index.md` |
-| `/work-log` | Review-gated directives, receipts, decisions, and field notes | Published GitHub work-log issues and deployed Sites rendering |
+| `/work-log` | Read-only, owner-published execution receipts, decisions, and field evidence | Owner-approved published records and deployed Sites rendering |
 | `/work-with-me` | Role, engagement, and partnership paths | Drew Burt's owner-confirmed availability and contact details |
 
 ## Systems evidence contract
@@ -96,14 +96,19 @@ The detailed claim-and-proof matrix is maintained in [`systems-evidence-index.md
 4. Confirm reciprocal README links still resolve correctly.
 5. Record the final public URL and relevant GitHub change in the change log.
 
-### Work Log entry
+### Work Log publication
 
-1. Submit the structured GitHub Work Log issue form.
+The public Work Log is a proof surface, not a visitor contribution feature.
+
+1. Author the draft through an owner-controlled workflow that is not exposed as a public portfolio intake path.
 2. Verify completed-work claims, evidence links, dates, and project attribution.
 3. Remove secrets, personal data, private client information, and unsupported claims.
-4. Keep the GitHub issue open while the entry remains a draft.
-5. Close the issue only after review.
-6. Preserve the GitHub issue as the versioned source record for the public entry.
+4. Keep the draft outside the public feed until review is complete.
+5. Publish only after Drew Burt approves the record for public evidence use.
+6. Preserve the versioned source record and provenance for each published entry.
+7. Do not expose a public Work Log submission form or invite visitors to create portfolio evidence entries.
+
+Existing published Work Log records remain valid evidence subject to the same review and withdrawal authority.
 
 ### Conflict resolution
 
@@ -134,6 +139,7 @@ Existing technical briefs and case studies remain supporting evidence:
 
 | Date | Change | GitHub record | Public deployment |
 | --- | --- | --- | --- |
+| 2026-09-09 | Reclassified the public Work Log as read-only owner-published evidence and removed public visitor-submission semantics from the governance contract. | Pending PR from `leverage/2026-09-09-private-work-log-intake` | Sites update required |
 | 2026-08-30 | Tightened the Systems evidence contract, corrected CASA canonical ownership, and standardized the current portfolio hostname. | Current repository history | https://drew-burt-portfolio.daxxer-os.chatgpt.site/systems |
 | 2026-08-29 | Updated the current canonical public portfolio target to `daxxer-os.chatgpt.site`. | Commit `577c94712fa9424828b5c063eb86028d2a86e5d3` | https://drew-burt-portfolio.daxxer-os.chatgpt.site |
 | 2026-08-12 | Published the Agentic Readiness Audit founding-pilot route. | PR #17 | Agentic Readiness Audit route |
